@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+html {
+  font-size: 62.5%; }
+
+.top img {
+  width: 100%;
+  height: 500px; }
+
+.content {
+  background-color: #fdfcf6;
+  padding: 30px 0; }
+  .content h2 {
+    font-size: 1.4rem;
+    text-align: center; }
+
+.con {
+  display: block;
+  text-align: center;
+  width: 30%;
+  height: 100px;
+  margin: 15px auto;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  background-color: #bea300; }
+
+.bottom {
+  clear: both;
+  background-color: #bea300;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 0; }
+  .bottom .btn {
+    display: inline-block; }
+  .bottom a {
+    display: block;
+    padding: 15px 50px;
+    background-color: #fdfcf6;
+    border-radius: 10px;
+    text-decoration: none; }
+
+@media (min-width: 769px) {
+  .all {
+    text-align: center; }
+
+  .con {
+    display: inline-block;
+    margin: 10px;
+    box-sizing: border-box; } }
+
+/*# sourceMappingURL=style.css.map */
