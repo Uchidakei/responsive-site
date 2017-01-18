@@ -2,15 +2,18 @@
 html {
   font-size: 62.5%; }
 
-.top img {
+.top {
+  height: 250px;
   width: 100%;
-  height: 500px; }
+  background-image: url("../images/huzi.jpg");
+  background-size: cover; }
 
 .content {
   background-color: #fdfcf6;
   padding: 30px 0; }
   .content h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
     text-align: center; }
 
 .con {
@@ -21,6 +24,11 @@ html {
   box-sizing: border-box;
   padding-bottom: 10px;
   background-color: #bea300; }
+  .con p, .con h3 {
+    font-size: 1.2rem;
+    letter-spacing: .3rem; }
+  .con p {
+    padding: 0 15px 15px 15px; }
 
 .bottom {
   clear: both;
@@ -38,6 +46,10 @@ html {
     text-decoration: none; }
 
 @media (min-width: 769px) {
+  .top {
+    width: 100%;
+    height: 500px; }
+
   .all {
     text-align: center; }
 
