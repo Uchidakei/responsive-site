@@ -27,12 +27,13 @@ html{font-size: 62.5%;}
 .con {
         display: block;  
         text-align: center;
-        width: 30%;
-        height: 100px;
+
+        height: 120px;
         margin: 15px auto;
         box-sizing: border-box;
         padding-bottom: 10px;
         background-color: $subColor;
+  
   
 }
 .bottom
@@ -57,12 +58,14 @@ html{font-size: 62.5%;}
     }
 }
 
+
 @media(min-width: 769px ) {
     .all{
         text-align: center;
     }
     
         .con {
+           width: 30%;
             display: inline-block;
             margin: 10px;
             box-sizing: border-box;
